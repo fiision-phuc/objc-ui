@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="1" userLabel="MenuAccessory" customClass="FwiMenuAccessory">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xYe-TV-Jdw" userLabel="btnDismiss">
+                    <rect key="frame" x="5" y="5" width="40" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="XBX-bM-oyO"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <state key="normal" title="X">
+                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="keyPressed:" destination="1" eventType="touchUpInside" id="QFX-dJ-VlY"/>
+                    </connections>
+                </button>
+                <button clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bEV-Yr-AL8" userLabel="btnBack">
+                    <rect key="frame" x="46" y="5" width="40" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <state key="normal" title="&lt;">
+                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="keyPressed:" destination="1" eventType="touchUpInside" id="1z6-UX-1H3"/>
+                    </connections>
+                </button>
+                <button clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hzK-2e-v11" userLabel="btnNext">
+                    <rect key="frame" x="87" y="5" width="40" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <state key="normal" title=">">
+                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="keyPressed:" destination="1" eventType="touchUpInside" id="M6o-ne-j9f"/>
+                    </connections>
+                </button>
+                <button clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VFg-DW-op5" userLabel="btnDone">
+                    <rect key="frame" x="265" y="5" width="50" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="vxj-OW-zzQ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <state key="normal" title="Done">
+                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="keyPressed:" destination="1" eventType="touchUpInside" id="wHM-jJ-eA4"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="hzK-2e-v11" firstAttribute="leading" secondItem="bEV-Yr-AL8" secondAttribute="trailing" constant="1" id="7E7-vP-iPs"/>
+                <constraint firstItem="xYe-TV-Jdw" firstAttribute="top" secondItem="VFg-DW-op5" secondAttribute="top" id="8I7-z8-fwX"/>
+                <constraint firstItem="xYe-TV-Jdw" firstAttribute="top" secondItem="hzK-2e-v11" secondAttribute="top" id="BS3-bi-ccY"/>
+                <constraint firstItem="xYe-TV-Jdw" firstAttribute="bottom" secondItem="hzK-2e-v11" secondAttribute="bottom" id="InV-mW-yw4"/>
+                <constraint firstItem="bEV-Yr-AL8" firstAttribute="leading" secondItem="xYe-TV-Jdw" secondAttribute="trailing" constant="1" id="LGg-SV-Svm"/>
+                <constraint firstItem="bEV-Yr-AL8" firstAttribute="top" secondItem="xYe-TV-Jdw" secondAttribute="top" id="Nqs-GS-CqA"/>
+                <constraint firstAttribute="bottom" secondItem="xYe-TV-Jdw" secondAttribute="bottom" constant="5" id="UEU-7N-rLs"/>
+                <constraint firstItem="xYe-TV-Jdw" firstAttribute="width" secondItem="hzK-2e-v11" secondAttribute="width" id="avm-6U-xpC"/>
+                <constraint firstAttribute="trailing" secondItem="VFg-DW-op5" secondAttribute="trailing" constant="5" id="eo6-ep-wSg"/>
+                <constraint firstItem="xYe-TV-Jdw" firstAttribute="top" secondItem="1" secondAttribute="top" constant="5" id="fEZ-Kh-Er3"/>
+                <constraint firstItem="bEV-Yr-AL8" firstAttribute="bottom" secondItem="xYe-TV-Jdw" secondAttribute="bottom" id="ncw-Cd-kCO"/>
+                <constraint firstItem="xYe-TV-Jdw" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="5" id="tWR-0I-ZSc"/>
+                <constraint firstItem="xYe-TV-Jdw" firstAttribute="bottom" secondItem="VFg-DW-op5" secondAttribute="bottom" id="uiS-u6-hKv"/>
+                <constraint firstItem="bEV-Yr-AL8" firstAttribute="width" secondItem="xYe-TV-Jdw" secondAttribute="width" id="xjB-3n-RdA"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="_btnBack" destination="bEV-Yr-AL8" id="xmy-AP-Gnf"/>
+                <outlet property="_btnDismiss" destination="xYe-TV-Jdw" id="0ci-qD-w6y"/>
+                <outlet property="_btnDone" destination="VFg-DW-op5" id="PYy-Sp-9Kw"/>
+                <outlet property="_btnNext" destination="hzK-2e-v11" id="C4I-Ed-5kt"/>
+            </connections>
+        </view>
+    </objects>
+</document>

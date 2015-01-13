@@ -1,0 +1,14 @@
+//
+// Prefix header for all source files of the 'FwiUI' target in the 'FwiUI' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <CoreGraphics/CoreGraphics.h>
+    #import <CoreImage/CoreImage.h>
+    #import <QuartzCore/QuartzCore.h>
+
+    #import "FwiCore.h"
+    #import "FwiUI.h"
+#endif
