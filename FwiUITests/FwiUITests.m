@@ -2,8 +2,8 @@
 //  FwiUITests.m
 //  FwiUITests
 //
-//  Created by Phuc, Tran Huu on 1/18/14.
-//  Copyright (c) 2014 FWI Group. All rights reserved.
+//  Created by Phuc, Tran Huu on 1/13/15.
+//  Copyright (c) 2015 FWI Group. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>

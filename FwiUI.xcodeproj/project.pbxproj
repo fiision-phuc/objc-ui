@@ -804,7 +804,22 @@
 		BEF57BD618BF27C1002E6470 /* FwkTable.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE843E4E17A6C92200A0039C /* FwkTable.h */; };
 		BEF57BD718BF27C1002E6470 /* FwkViewPull.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE843E5117A6C92200A0039C /* FwkViewPull.h */; };
 		BEF57BD818BF27C1002E6470 /* FwkViewRefresh.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE843E5317A6C92200A0039C /* FwkViewRefresh.h */; };
+		BEF95D5D1A650CE800183E43 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF95D5C1A650CE800183E43 /* XCTest.framework */; };
+		BEF95D5E1A650CE800183E43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE208B9416E9B0C3004E0F54 /* Foundation.framework */; };
+		BEF95D5F1A650CE800183E43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE54867616EA52D100A3854E /* UIKit.framework */; };
+		BEF95D651A650CE800183E43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEF95D631A650CE800183E43 /* InfoPlist.strings */; };
+		BEF95D671A650CE800183E43 /* FwiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF95D661A650CE800183E43 /* FwiUITests.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEF95D691A650CE800183E43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE208B8916E9B0C3004E0F54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE208B9016E9B0C3004E0F54;
+			remoteInfo = FwiUI;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		BE208B8F16E9B0C3004E0F54 /* CopyFiles */ = {
@@ -844,11 +859,6 @@
 		BE208B9116E9B0C3004E0F54 /* libFwiUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFwiUI.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE208B9416E9B0C3004E0F54 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BE208B9816E9B0C3004E0F54 /* FwiUI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FwiUI-Prefix.pch"; sourceTree = "<group>"; };
-		BE2EB9C41889E90D001F890A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		BE2EB9CA1889E90D001F890A /* FwiUITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FwiUITests-Info.plist"; sourceTree = "<group>"; };
-		BE2EB9CC1889E90D001F890A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BE2EB9CE1889E90D001F890A /* FwiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FwiUITests.m; sourceTree = "<group>"; };
-		BE2EB9D01889E90D001F890A /* FwiUITests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FwiUITests-Prefix.pch"; sourceTree = "<group>"; };
 		BE54867616EA52D100A3854E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BE54867816EA52D600A3854E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		BE54867A16EA52DA00A3854E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -1630,6 +1640,12 @@
 		BEE5CB8816FECF2A00E9B6E4 /* FwiBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FwiBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE5CB9116FECF2A00E9B6E4 /* FwiBundle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FwiBundle-Info.plist"; sourceTree = "<group>"; };
 		BEE5CB9516FECF2A00E9B6E4 /* FwiBundle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FwiBundle-Prefix.pch"; sourceTree = "<group>"; };
+		BEF95D5B1A650CE800183E43 /* FwiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FwiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF95D5C1A650CE800183E43 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BEF95D621A650CE800183E43 /* FwiUITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FwiUITests-Info.plist"; sourceTree = "<group>"; };
+		BEF95D641A650CE800183E43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BEF95D661A650CE800183E43 /* FwiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FwiUITests.m; sourceTree = "<group>"; };
+		BEF95D681A650CE800183E43 /* FwiUITests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FwiUITests-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1652,6 +1668,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BEF95D581A650CE800183E43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF95D5D1A650CE800183E43 /* XCTest.framework in Frameworks */,
+				BEF95D5F1A650CE800183E43 /* UIKit.framework in Frameworks */,
+				BEF95D5E1A650CE800183E43 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -1670,7 +1696,7 @@
 				BE208B9616E9B0C3004E0F54 /* FwiUI */,
 				BE208B9216E9B0C3004E0F54 /* Products */,
 				BE208B9316E9B0C3004E0F54 /* Frameworks */,
-				BE2EB9C81889E90D001F890A /* FwiUITests */,
+				BEF95D601A650CE800183E43 /* FwiUITests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1679,6 +1705,7 @@
 			children = (
 				BE208B9116E9B0C3004E0F54 /* libFwiUI.a */,
 				BEE5CB8816FECF2A00E9B6E4 /* FwiBundle.bundle */,
+				BEF95D5B1A650CE800183E43 /* FwiUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1689,7 +1716,7 @@
 				BE54867E16EA530F00A3854E /* Core */,
 				BE54867616EA52D100A3854E /* UIKit.framework */,
 				BE208B9416E9B0C3004E0F54 /* Foundation.framework */,
-				BE2EB9C41889E90D001F890A /* XCTest.framework */,
+				BEF95D5C1A650CE800183E43 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1707,25 +1734,6 @@
 			isa = PBXGroup;
 			children = (
 				BE208B9816E9B0C3004E0F54 /* FwiUI-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		BE2EB9C81889E90D001F890A /* FwiUITests */ = {
-			isa = PBXGroup;
-			children = (
-				BE2EB9CE1889E90D001F890A /* FwiUITests.m */,
-				BE2EB9C91889E90D001F890A /* Supporting Files */,
-			);
-			path = FwiUITests;
-			sourceTree = "<group>";
-		};
-		BE2EB9C91889E90D001F890A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				BE2EB9CA1889E90D001F890A /* FwiUITests-Info.plist */,
-				BE2EB9CB1889E90D001F890A /* InfoPlist.strings */,
-				BE2EB9D01889E90D001F890A /* FwiUITests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -2643,6 +2651,25 @@
 			name = com;
 			sourceTree = "<group>";
 		};
+		BEF95D601A650CE800183E43 /* FwiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEF95D661A650CE800183E43 /* FwiUITests.m */,
+				BEF95D611A650CE800183E43 /* Supporting Files */,
+			);
+			path = FwiUITests;
+			sourceTree = "<group>";
+		};
+		BEF95D611A650CE800183E43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEF95D621A650CE800183E43 /* FwiUITests-Info.plist */,
+				BEF95D631A650CE800183E43 /* InfoPlist.strings */,
+				BEF95D681A650CE800183E43 /* FwiUITests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2680,6 +2707,24 @@
 			productReference = BEE5CB8816FECF2A00E9B6E4 /* FwiBundle.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
+		BEF95D5A1A650CE800183E43 /* FwiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF95D6B1A650CE800183E43 /* Build configuration list for PBXNativeTarget "FwiUITests" */;
+			buildPhases = (
+				BEF95D571A650CE800183E43 /* Sources */,
+				BEF95D581A650CE800183E43 /* Frameworks */,
+				BEF95D591A650CE800183E43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEF95D6A1A650CE800183E43 /* PBXTargetDependency */,
+			);
+			name = FwiUITests;
+			productName = FwiUITests;
+			productReference = BEF95D5B1A650CE800183E43 /* FwiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -2688,6 +2733,11 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "FWI Group";
+				TargetAttributes = {
+					BEF95D5A1A650CE800183E43 = {
+						TestTargetID = BE208B9016E9B0C3004E0F54;
+					};
+				};
 			};
 			buildConfigurationList = BE208B8C16E9B0C3004E0F54 /* Build configuration list for PBXProject "FwiUI" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -2703,6 +2753,7 @@
 			targets = (
 				BE208B9016E9B0C3004E0F54 /* FwiUI */,
 				BEE5CB8716FECF2A00E9B6E4 /* FwiBundle */,
+				BEF95D5A1A650CE800183E43 /* FwiUITests */,
 				BE208BE616E9B538004E0F54 /* FwiUI.framework */,
 			);
 		};
@@ -3465,6 +3516,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BEF95D591A650CE800183E43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF95D651A650CE800183E43 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -3527,13 +3586,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BEF95D571A650CE800183E43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF95D671A650CE800183E43 /* FwiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		BEF95D6A1A650CE800183E43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE208B9016E9B0C3004E0F54 /* FwiUI */;
+			targetProxy = BEF95D691A650CE800183E43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		BE2EB9CB1889E90D001F890A /* InfoPlist.strings */ = {
+		BEF95D631A650CE800183E43 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BE2EB9CC1889E90D001F890A /* en */,
+				BEF95D641A650CE800183E43 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -3560,7 +3635,6 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEAD_CODE_STRIPPING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -3577,12 +3651,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LINK_WITH_STANDARD_LIBRARIES = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "../FwiCore/FwiCore/com/monster/lib/**";
+				USER_HEADER_SEARCH_PATHS = "../FwiCore/FwiCore/org/monstergroup/lib/**";
 				VALID_ARCHS = "$(ARCHS_STANDARD)";
 			};
 			name = Debug;
@@ -3606,7 +3679,6 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
-				DEAD_CODE_STRIPPING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -3616,12 +3688,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LINK_WITH_STANDARD_LIBRARIES = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "../FwiCore/FwiCore/com/monster/lib/**";
+				USER_HEADER_SEARCH_PATHS = "../FwiCore/FwiCore/org/monstergroup/lib/**";
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "$(ARCHS_STANDARD)";
 			};
@@ -3718,6 +3789,58 @@
 			};
 			name = Release;
 		};
+		BEF95D6C1A650CE800183E43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FwiUITests/FwiUITests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "FwiUITests/FwiUITests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BEF95D6D1A650CE800183E43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FwiUITests/FwiUITests-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "FwiUITests/FwiUITests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -3756,6 +3879,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		BEF95D6B1A650CE800183E43 /* Build configuration list for PBXNativeTarget "FwiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF95D6C1A650CE800183E43 /* Debug */,
+				BEF95D6D1A650CE800183E43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
