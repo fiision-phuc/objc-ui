@@ -3887,6 +3887,7 @@
 				BEF95D6D1A650CE800183E43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
